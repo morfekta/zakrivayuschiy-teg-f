@@ -1,6 +1,6 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-  --font-family-base: 'Inter', sans-serif;
+  --font-family-base: 'Inter-Variable', 'Inter', sans-serif;
   --font-family-accent: 'PressStart2P-Regular', fantasy;
   --regular-font-weight: 400;
   --bold-font-weight: 700;
@@ -25,10 +25,4 @@
   --heart-body-color: red;
   --contour-color: #000;
   --core-color: #FFF;
-}
-
-@supports (font-variation-settings: normal) {
-  :root {
-    --font-family-base: 'Inter-Variable', sans-serif;
-  }
 }

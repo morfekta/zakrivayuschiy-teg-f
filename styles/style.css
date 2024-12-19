@@ -21,7 +21,7 @@
   background-attachment: fixed;
   min-inline-size: 320px;
   min-block-size: 100dvb;
-  font-variation-settings: 'wght' var(--regular-font-weight, 400);
+  font-variation-settings: 'wght' var(--regular-font-weight, 400) var(--bold-font-weight, 700);
 }
 
 /* Хедер */
@@ -253,4 +253,34 @@ dialog[open] {
   .save-button {
     flex-direction: column;
   }
+}
+
+/* Фильтры */
+
+.combo {
+  filter: brightness(1.2) contrast(120%) saturate(150%) blur(2px);
+}
+
+.gray {
+  filter: grayscale(100%) contrast(150%);
+}
+
+.bright {
+  filter: brightness(1.5) saturate(200%);
+}
+
+.sepia {
+  filter: sepia(100%) brightness(0.7);
+}
+
+.hue {
+  filter: hue-rotate(180deg);
+}
+
+.blur {
+  filter: blur(2px);
+}
+
+.invert {
+  filter: invert(1);
 }
