@@ -46,6 +46,9 @@ input {
   text-decoration: none;
   background: none;
   cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 
 ul,
